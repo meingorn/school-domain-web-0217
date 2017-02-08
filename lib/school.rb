@@ -2,7 +2,6 @@ class School
 
   attr_reader :name, :roster
 
-
   def initialize(name, roster={})
     @name = name
     @roster = roster
@@ -16,7 +15,7 @@ class School
   def grade(grade)
     @roster[grade]
   end
-    
+
   def sort
     @roster.map{|grade, arr| arr.sort!}
     @roster
