@@ -22,3 +22,4 @@ class School
   end
 
 end
+#this is a comment
